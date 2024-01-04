@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
     <header>
         <!-- banner -->
 
-        <div class="banner">
+        <div id="banner">
             <!-- banner-info -->
             <div class="banner-info">
                 <h1 class="heading">
@@ -30,12 +31,30 @@
                 </p>
                 <div class="donate-button">
                     <button class="btn-primary">Donate Now</button>
-                    <button class="watch">Watch Video</button>
+                    <div class="watch">
+                        <i><svg xmlns="http://www.w3.org/2000/svg" width="11" height="13" viewBox="0 0 11 13"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M3.42085 0.364307C3.08954 0.146614 2.70444 0.0215821 2.30663 0.00255188C1.90882 -0.0164783 1.51323 0.0712061 1.16206 0.256251C0.810894 0.441296 0.517319 0.71676 0.312661 1.05325C0.108003 1.38974 -5.95816e-05 1.77464 2.46452e-08 2.16688V10.8331C-5.95816e-05 11.2254 0.108003 11.6103 0.312661 11.9467C0.517319 12.2832 0.810894 12.5587 1.16206 12.7437C1.51323 12.9288 1.90882 13.0165 2.30663 12.9974C2.70444 12.9784 3.08954 12.8534 3.42085 12.6357L10.0206 8.30258C10.3218 8.10472 10.5689 7.83667 10.7397 7.52222C10.9106 7.20777 11 6.85664 11 6.5C11 6.14336 10.9106 5.79223 10.7397 5.47778C10.5689 5.16333 10.3218 4.89528 10.0206 4.69742L3.42085 0.364307Z"
+                                    fill="#707070" />
+                            </svg></i>
+                        <h5> Watch Video</h5>
+                    </div>
                 </div>
 
             </div>
             <div class="banner-img">
-                <img src="./Assets/images/Donate 1.png" alt="">
+                <img class="donate" src="./Assets/images/Donate 1.png" alt="Donate">
+                <svg xmlns="http://www.w3.org/2000/svg" width="831" height="415" viewBox="0 0 831 415" fill="none">
+                    <path d="M831 415C831 304.935 787.224 199.378 709.303 121.551C631.382 43.7231 525.698 8.30966e-06 415.5 0C305.303 -8.30966e-06 199.619 43.7231 121.697 121.551C43.7758 199.378 1.66394e-05 304.935 0 415L137.773 415C137.773 341.431 167.033 270.875 219.117 218.853C271.201 166.832 341.842 137.607 415.5 137.607C489.158 137.607 559.799 166.832 611.883 218.854C663.967 270.875 693.227 341.431 693.227 415H831Z" fill="url(#paint0_linear_2_6)"/>
+                    <defs>
+                      <linearGradient id="paint0_linear_2_6" x1="415.5" y1="0" x2="415.5" y2="415" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FFD3D3"/>
+                        <stop offset="1" stop-color="#FF5959" stop-opacity="0"/>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                 
             </div>
         </div>
     </header>
@@ -50,6 +69,8 @@
 
     </footer>
 
+
+    <script src="/js/app.js"></script>
 </body>
 
 </html>

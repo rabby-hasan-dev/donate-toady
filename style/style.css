@@ -1,30 +1,92 @@
-
 /* universal place using things */
 * {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
-    
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
 }
+
+
 
 /* group of  the same color using muliple state */
-:root{
-    --bg-primary:#FF5959;
-    --bg-secondary:#FAFAFA;
-    --text-primary:#FFFFFF;
-    --text-secondary:#121212;
+:root {
+    --bg-primary: #FF5959;
+    --bg-secondary: #FAFAFA;
+    --text-primary: #FFFFFF;
+    --text-secondary: #121212;
 }
 
-.banner{
+/* ----banner------- */
+
+#banner {
+    background-color: var(--bg-secondary);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: end;
+    padding: 1px;
+
 }
 
-.btn-primary{
+/* ----banner info */
+
+#banner .banner-info {
+    margin: 121px 0 121px 98px;
+}
+
+#banner .heading {
+    font-family: 'Inter', sans-serif;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+
+}
+
+#banner .sub-heading {
+    margin: 20px 0 30px 1px;
+    font-size: 18px;
+
+}
+
+#banner .donate-button {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#banner .watch {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.btn-primary {
     background-color: var(--bg-primary);
     color: var(--text-primary);
     padding: 16px 12px;
     border: 5px;
-    font-weight: 600px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+
+}
+
+/*------------- Banner-image ---------- */
+#banner .banner-img {
+    display: flex;
+    position: relative;
+    justify-items: end;
+    
+}
+
+#banner .donate {
+    position: absolute;
+    /* top: 66px; */
+    left: 171px;
+    right: 170px;
+    bottom: 0;
 }
