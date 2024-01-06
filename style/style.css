@@ -14,7 +14,7 @@
 :root {
     --bg-primary: #FF5959;
     --bg-secondary: #FAFAFA;
-    --text-primary: #FFFFFF;
+    --text-primary:#707070;
     --text-secondary: #121212;
 }
 
@@ -67,7 +67,7 @@
 
 .btn-primary {
     background-color: var(--bg-primary);
-    color: var(--text-primary);
+    color: #FFF;
     padding: 16px 12px;
     border: none;
     font-weight: bold;
@@ -147,21 +147,22 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    
+
 }
 
 #doante-sections .divider {
     margin-bottom: 30px;
-    
+
 }
 
 /* ------donate plan ----------- */
 
-#donate-plan{
+#donate-plan {
     margin: 130px 133px;
-    
+
 }
-#donate-plan h1{
+
+#donate-plan h1 {
     color: var(--text-secondary);
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Inter;
@@ -171,7 +172,8 @@
     line-height: normal;
     text-align: center;
 }
-#donate-plan .donate-info{
+
+#donate-plan .donate-info {
     color: #707070;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Poppins;
@@ -182,14 +184,15 @@
     margin: 20px 0 50px 0;
     text-align: center;
 }
-#donate-plan .donate-plan-card{
+
+#donate-plan .donate-plan-card {
     margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#donate-plan .donate-plan-card div{
+#donate-plan .donate-plan-card div {
     background-color: var(--bg-secondary);
     margin-left: 24px;
     width: 360px;
@@ -197,21 +200,71 @@
     padding: 55px 23px;
     border-radius: 5px;
 }
-#donate-plan .donate-plan-card div:nth-child(1){
-    
+
+#donate-plan .donate-plan-card div:nth-child(1) {
+
     background: rgba(79, 157, 166, 0.10);
 }
-#donate-plan .donate-plan-card div:nth-child(2){
-    
+
+#donate-plan .donate-plan-card div:nth-child(2) {
+
     background: rgba(255, 89, 89, 0.10);
 }
-#donate-plan .donate-plan-card div:nth-child(3){
-    
+
+#donate-plan .donate-plan-card div:nth-child(3) {
+
     background: #FFF4D6;
 }
 
-#donate-plan .donate-plan-card div h3{
-   margin: 30px 0 16px;
-   
+#donate-plan .donate-plan-card div h3 {
+    margin: 30px 0 16px;
+
 }
 
+/* ------contribution section ------- */
+
+#contribution-section {
+    margin: 130px 156px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 100px 94px;
+}
+
+#contribution-section div h1 {
+    color: var(--text-secondary);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#contribution-section div p {
+    margin: 20px 0;
+    color:var(--text-primary);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px
+}
+
+#contribution-section .item-1 {
+    order: 1;
+}
+
+#contribution-section .item-2 {
+    order: 2;
+}
+
+#contribution-section .item-3 {
+    order: 4;
+}
+
+#contribution-section .item-4 {
+    order: 3;
+}
