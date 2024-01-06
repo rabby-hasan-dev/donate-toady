@@ -69,9 +69,10 @@
     background-color: var(--bg-primary);
     color: var(--text-primary);
     padding: 16px 12px;
-    border: 5px;
+    border: none;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
+    border-radius: 5px;
 
 }
 
@@ -80,7 +81,7 @@
     display: flex;
     position: relative;
     justify-items: end;
-    
+
 }
 
 #banner .donate {
@@ -90,3 +91,67 @@
     right: 170px;
     bottom: 0;
 }
+
+/* ------donate sections --------- */
+
+#doante-sections {
+    padding: 130px 137px;
+    text-align: center;
+    background: #FFF;
+    ;
+}
+
+#doante-sections h1 {
+    color: var(--text-secondary);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#doante-sections .donate-info {
+    color: #707070;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 20px 0 50px 0;
+}
+
+#doante-sections .amount-level {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#doante-sections .amount {
+    width: 135px;
+    height: 123px;
+    border-radius: 5px;
+    background: var(--bg-secondary);
+    margin-left: 22px;
+
+
+}
+
+#doante-sections .amount span {
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+#doante-sections .divider {
+    margin-bottom: 30px;
+    
+}
+
