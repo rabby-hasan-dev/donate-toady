@@ -155,3 +155,63 @@
     
 }
 
+/* ------donate plan ----------- */
+
+#donate-plan{
+    margin: 130px 133px;
+    
+}
+#donate-plan h1{
+    color: var(--text-secondary);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+#donate-plan .donate-info{
+    color: #707070;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 20px 0 50px 0;
+    text-align: center;
+}
+#donate-plan .donate-plan-card{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#donate-plan .donate-plan-card div{
+    background-color: var(--bg-secondary);
+    margin-left: 24px;
+    width: 360px;
+    height: 352px;
+    padding: 55px 23px;
+    border-radius: 5px;
+}
+#donate-plan .donate-plan-card div:nth-child(1){
+    
+    background: rgba(79, 157, 166, 0.10);
+}
+#donate-plan .donate-plan-card div:nth-child(2){
+    
+    background: rgba(255, 89, 89, 0.10);
+}
+#donate-plan .donate-plan-card div:nth-child(3){
+    
+    background: #FFF4D6;
+}
+
+#donate-plan .donate-plan-card div h3{
+   margin: 30px 0 16px;
+   
+}
+
