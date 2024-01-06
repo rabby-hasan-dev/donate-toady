@@ -138,16 +138,29 @@
 }
 
 #doante-sections .amount {
-    width: 135px;
-    height: 123px;
     border-radius: 5px;
     background: var(--bg-secondary);
     margin-left: 22px;
+    padding: 43px 23px 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
 }
 
-#doante-sections .amount span {
+#doante-sections .amount:hover {
+    border-radius: 5px;
+    border: 2px solid #FF5959;
+    background: #FEE;
+    color: #FF5959;
+   
+    
+
+
+}
+
+#doante-sections .amount-level p {
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Inter;
@@ -156,7 +169,9 @@
     font-weight: 700;
     line-height: normal;
 
+
 }
+
 
 #doante-sections .divider {
     margin-bottom: 30px;
@@ -290,9 +305,13 @@
     background: #FF5959;
     padding: 14px 42px;
     border: none;
-  
+
 }
 
 
 /* ------footer ------- */
 
+.footer-image {
+    margin: 0 auto;
+    justify-content: center;
+}
